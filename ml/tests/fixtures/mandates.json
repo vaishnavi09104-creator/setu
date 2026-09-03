@@ -1,0 +1,102 @@
+{
+  "mandates": [
+    {
+      "id": "demo",
+      "text": "\u20b950 lakh for maternal health and clean drinking water across Kalahandi, Nuapada and Balangir in Odisha, prefer partners with prior corporate CSR experience",
+      "expect": {
+        "budget_inr": 5000000,
+        "n_domains": 2,
+        "n_districts": 3,
+        "domain0": "maternal_health"
+      }
+    },
+    {
+      "id": "state_only",
+      "text": "we want to fund girls education in Maharashtra for 40 lakh",
+      "expect": {
+        "budget_inr": 4000000,
+        "state": "Maharashtra",
+        "n_districts": null
+      }
+    },
+    {
+      "id": "crore_budget",
+      "text": "Rs. 1.5 crore for skilling and livelihoods in Nagpur and Gadchiroli districts",
+      "expect": {
+        "budget_inr": 15000000,
+        "n_districts": 2
+      }
+    },
+    {
+      "id": "inr_grouped",
+      "text": "INR 50,00,000 for water and sanitation work in Kalahandi",
+      "expect": {
+        "budget_inr": 5000000
+      }
+    },
+    {
+      "id": "lakh_shorthand",
+      "text": "50L for maternal healthcare in Nuapada, Odisha",
+      "expect": {
+        "budget_inr": 5000000
+      }
+    },
+    {
+      "id": "crore_shorthand",
+      "text": "0.8 Cr for clean drinking water and hygiene in Balangir",
+      "expect": {
+        "budget_inr": 8000000
+      }
+    },
+    {
+      "id": "multi_domain_multi_district",
+      "text": "\u20b925 lakh for education and nutrition across Kalahandi and Nuapada in Odisha over 2 years",
+      "expect": {
+        "n_domains": 2,
+        "n_districts": 2,
+        "duration_months": 24,
+        "budget_inr": 2500000
+      }
+    },
+    {
+      "id": "preferences",
+      "text": "\u20b950 lakh for maternal health in Kalahandi, must have FCRA, prefer women-led organisations with minimum 5 years operating",
+      "expect": {
+        "preferences": true,
+        "foreign_funded": true,
+        "budget_inr": 5000000
+      }
+    },
+    {
+      "id": "vague",
+      "text": "we want to do something for children",
+      "expect": {
+        "vague": true,
+        "budget_inr": 0
+      }
+    },
+    {
+      "id": "hinglish",
+      "text": "humein rural Maharashtra mein girls ki education ke liye partner chahiye, budget 40 lakh",
+      "expect": {
+        "budget_inr": 4000000,
+        "n_domains_gte": 1
+      }
+    },
+    {
+      "id": "hinglish_odisha",
+      "text": "Odisha ke rural districts mein maternal health ke liye 50 lakh",
+      "expect": {
+        "budget_inr": 5000000
+      }
+    },
+    {
+      "id": "environment",
+      "text": "\u20b91 crore for tree plantation and biodiversity conservation in Koraput and Malkangiri, Odisha",
+      "expect": {
+        "budget_inr": 10000000,
+        "n_districts": 2
+      }
+    }
+  ]
+}

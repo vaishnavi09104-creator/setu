@@ -1,0 +1,25 @@
+{
+  "mandate_id": null,
+  "raw_text": "₹50 lakh for maternal health and clean drinking water across Kalahandi, Nuapada and Balangir in Odisha, prefer partners with prior corporate CSR experience",
+  "domains": ["maternal_health", "wash"],
+  "budget_inr": 5000000,
+  "districts": [
+    {"district": "Kalahandi", "state": "Odisha", "lat": 19.91, "lng": 83.16, "is_aspirational": true},
+    {"district": "Nuapada", "state": "Odisha", "lat": 20.11, "lng": 82.54, "is_aspirational": true},
+    {"district": "Balangir", "state": "Odisha", "lat": 20.71, "lng": 83.48, "is_aspirational": true}
+  ],
+  "duration_months": null,
+  "beneficiary_profile": null,
+  "preferences": ["Prior corporate CSR experience"],
+  "foreign_funded": false,
+  "field_confidence": {"budget": 1.0, "domains": 1.0, "districts": 1.0, "duration": 0.0, "beneficiary_profile": 0.0, "preferences": 1.0},
+  "clarifying_questions": ["Over what duration should the programme run?"],
+  "requirement_units": [
+    {"domain": "maternal_health", "district": "Kalahandi", "state": "Odisha", "weight": 1.0},
+    {"domain": "maternal_health", "district": "Nuapada", "state": "Odisha", "weight": 1.0},
+    {"domain": "maternal_health", "district": "Balangir", "state": "Odisha", "weight": 1.0},
+    {"domain": "wash", "district": "Kalahandi", "state": "Odisha", "weight": 1.0},
+    {"domain": "wash", "district": "Nuapada", "state": "Odisha", "weight": 1.0},
+    {"domain": "wash", "district": "Balangir", "state": "Odisha", "weight": 1.0}
+  ]
+}

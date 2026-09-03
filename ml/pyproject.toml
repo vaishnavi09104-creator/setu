@@ -1,0 +1,27 @@
+[project]
+name = "setu-ml"
+version = "1.0.0"
+description = "SETU matching & trust intelligence library (pure Python, no HTTP, no database)"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=1.26",
+  "pydantic>=2.5",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4"]
+fast = ["sentence-transformers>=2.2"]
+stats = ["scipy>=1.11"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["setu_ml"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+  "perf: performance-bound tests (deselect with '-m \"not perf\"')",
+]

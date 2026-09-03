@@ -1,0 +1,78 @@
+{
+  "ngo_id": "ngo_014",
+  "score": 84,
+  "badge": "Verified Elite",
+  "is_ineligible": false,
+  "anomaly_penalty": 0,
+  "shell_penalty": 0,
+  "pillars": [
+    {
+      "pillar": "compliance",
+      "label": "Compliance",
+      "weight": 0.30,
+      "raw": 1.0,
+      "effective": 0.92,
+      "freshness": 0.79,
+      "freshness_days": 96,
+      "half_life_days": 365,
+      "contribution": 27.7,
+      "evidence": [
+        {"doc_id": "doc_031", "kind": "csr1", "page": 2, "snippet": "...CSR Registration Number: CSR00012345 dated 12/04/2023...", "char_start": 412, "char_end": 468, "confidence": 0.97}
+      ],
+      "no_evidence": false,
+      "notes": ["FCRA excluded (domestic mandate): C renormalised over 0.90"]
+    },
+    {
+      "pillar": "financial",
+      "label": "Financial Discipline",
+      "weight": 0.30,
+      "raw": 1.0,
+      "effective": 0.94,
+      "freshness": 0.85,
+      "freshness_days": 90,
+      "half_life_days": 540,
+      "contribution": 28.2,
+      "evidence": [
+        {"doc_id": "doc_034", "kind": "audit_fy", "page": 1, "snippet": "...total expenditure ₹1,02,00,000 for FY 2024-25...", "char_start": 220, "char_end": 290, "confidence": 0.95}
+      ],
+      "no_evidence": false,
+      "notes": ["Admin ratio 9.4% → ladder score 1.00"]
+    },
+    {
+      "pillar": "operational",
+      "label": "Operational Track Record",
+      "weight": 0.25,
+      "raw": 0.91,
+      "effective": 0.91,
+      "freshness": 1.0,
+      "freshness_days": 0,
+      "half_life_days": 730,
+      "contribution": 22.7,
+      "evidence": [],
+      "no_evidence": false,
+      "notes": ["Completion (Laplace) 0.93 · milestones 0.90 · tenure 0.90"]
+    },
+    {
+      "pillar": "external",
+      "label": "External Verification",
+      "weight": 0.15,
+      "raw": 0.9,
+      "effective": 0.86,
+      "freshness": 0.90,
+      "freshness_days": 80,
+      "half_life_days": 540,
+      "contribution": 12.9,
+      "evidence": [
+        {"doc_id": "doc_041", "kind": "third_party_audit", "page": 1, "snippet": "...statutory audit completed by M/s Rao & Associates...", "char_start": 60, "char_end": 130, "confidence": 0.92}
+      ],
+      "no_evidence": false,
+      "notes": ["External items present: 3"]
+    }
+  ],
+  "anomaly_flags": [],
+  "shell_network": null,
+  "last_verified_months_ago": 3,
+  "algorithm_version": "setu-1.0.0",
+  "input_hash": "sha256:1a2b3c4d5e6f70809a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f",
+  "computed_at": "2026-09-03T18:00:00Z"
+}

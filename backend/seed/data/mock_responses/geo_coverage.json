@@ -1,0 +1,31 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "district": "Kalahandi",
+        "state": "Odisha",
+        "ngo_count": 6,
+        "total_capacity_inr": 24000000,
+        "need_index": 0.82,
+        "is_aspirational": true,
+        "gap_score": 0.18,
+        "domains": ["maternal_health", "wash", "education"]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "district": "Koraput",
+        "state": "Odisha",
+        "ngo_count": 0,
+        "total_capacity_inr": 0,
+        "need_index": 0.91,
+        "is_aspirational": true,
+        "gap_score": 0.91,
+        "domains": []
+      }
+    }
+  ]
+}
