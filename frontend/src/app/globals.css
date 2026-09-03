@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #0F172A;
+}
+
+html {
+  color-scheme: light;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+}
+
+/* focus ring — visible keyboard focus everywhere (NFR-8) */
+:where(button, a, input, select, textarea, [tabindex]):focus-visible {
+  outline: 2px solid #1D4ED8;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* staggered field reveal for mandate summary */
+@keyframes fieldIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.field-in {
+  animation: fieldIn 200ms ease-out both;
+}
+
+/* card reorder transition for mode toggle */
+@keyframes cardMove {
+  from { opacity: 0.4; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.card-move {
+  animation: cardMove 250ms ease-out both;
+}
+
+/* badge flip pulse — the counterfactual moment */
+@keyframes badgePulse {
+  0% { transform: scale(1); }
+  40% { transform: scale(1.06); }
+  100% { transform: scale(1); }
+}
+.badge-pulse {
+  animation: badgePulse 400ms ease-in-out;
+}
+
+@keyframes skeletonWave {
+  0% { opacity: 0.45; }
+  50% { opacity: 0.8; }
+  100% { opacity: 0.45; }
+}
+.skeleton-wave {
+  animation: skeletonWave 1.4s ease-in-out infinite;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
