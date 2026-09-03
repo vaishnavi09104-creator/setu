@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="794" height="1123" viewBox="0 0 794 1123">
+  <rect width="794" height="1123" fill="#FFFFFF"/>
+  <rect x="30" y="30" width="734" height="1063" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
+  <text x="70" y="72" font-size="17" font-weight="bold" fill="#0F172A">Third-Party Impact Assessment</text>
+  <text x="70" y="94" font-size="12" fill="#475569">Assessment by Sigma Development Analytics · page 2 · fixture capture</text>
+  <line x1="70" y1="104" x2="724" y2="104" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="60" y="152" width="68" height="22" fill="#FDE68A" fill-opacity="0.55" stroke="#D97706" stroke-dasharray="4 2" rx="3"/>
+  <text x="70" y="90" font-size="15" fill="#0F172A">IMPACT ASSESSMENT — MATERNAL HEALTH PROGRAMME</text>
+  <text x="70" y="116" font-size="15" fill="#0F172A"></text>
+  <text x="70" y="142" font-size="15" fill="#0F172A">Independent assessment commissioned by the corporate CSR partner.</text>
+  <text x="70" y="168" font-size="15" fill="#0F172A">Safe-delivery referrals achieved: 11,240 (target 10,000)</text>
+  <text x="70" y="194" font-size="15" fill="#0F172A">ASHA workers trained: 312</text>
+  <text x="70" y="220" font-size="15" fill="#0F172A">Institutional delivery rate in covered blocks rose from 61% to 78%.</text>
+  <text x="70" y="1070" font-size="11" fill="#94A3B8">SETU evidence fixture — offline capture of GET /api/documents/doc_impact_014/pages/2.png</text>
+</svg>
