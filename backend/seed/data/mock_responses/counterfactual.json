@@ -1,0 +1,38 @@
+{
+  "ngo_id": "ngo_061",
+  "current_score": 61,
+  "current_badge": "Standard Audited",
+  "achievable_ceiling": 80,
+  "actions": [
+    {
+      "label": "Upload your CSR-1 registration certificate",
+      "delta_points": 19.0,
+      "resulting_score": 80.0,
+      "resulting_badge": "Verified Elite",
+      "effort": "upload",
+      "evidence_required": "Form CSR-1 filed with MCA (mandatory to receive CSR funds)",
+      "sentence": "+19 points — Upload your CSR-1 registration certificate. Your score would move from 61 → 80 and your badge from 'Standard Audited' to 'Verified Elite'.",
+      "actionable": true
+    },
+    {
+      "label": "Upload the latest audited financial statement",
+      "delta_points": 6.5,
+      "resulting_score": 67.5,
+      "resulting_badge": "Standard Audited",
+      "effort": "upload",
+      "evidence_required": "Audited FY financials from a practicing chartered accountant",
+      "sentence": "+7 points — Upload the latest audited financial statement. Your score would move from 61 → 68.",
+      "actionable": true
+    },
+    {
+      "label": "Commission an impact assessment",
+      "delta_points": 4.5,
+      "resulting_score": 65.5,
+      "resulting_badge": "Standard Audited",
+      "effort": "obtain_registration",
+      "evidence_required": "Independent evaluation of a completed project",
+      "sentence": "+5 points — Commission an impact assessment. Your score would move from 61 → 66.",
+      "actionable": true
+    }
+  ]
+}

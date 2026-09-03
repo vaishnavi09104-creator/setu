@@ -1,0 +1,69 @@
+{
+  "algorithm_version": "setu-1.0.0",
+  "input_hash": "sha256:9f2c8e0a1d7b4c6f2a3d5e8f7b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c",
+  "latency_ms": 214.3,
+  "mode_used": "both",
+  "engine": "semantic",
+  "excluded_ineligible_count": 3,
+  "unmatched_warning": null,
+  "results": [
+    {
+      "ngo_id": "ngo_014",
+      "name": "Ashadeep Gramin Vikas Samiti",
+      "final_score": 0.871,
+      "semantic_score": 0.88,
+      "semantic_cosine_raw": 0.687,
+      "trust_score": 84,
+      "trust_badge": "Verified Elite",
+      "geo_score": 0.79,
+      "budget_request_inr": 4200000,
+      "base_district": "Kalahandi",
+      "base_state": "Odisha",
+      "districts_covered": ["Kalahandi", "Nuapada"],
+      "cost_per_beneficiary_inr": 1180,
+      "flags": [],
+      "freshness_days": 96,
+      "justification": {
+        "domain_synergy": "Mandate pillar 'maternal healthcare' aligns with the NGO's documented work on postpartum institutional delivery care and ASHA-worker training.",
+        "scale_fit": "Requests ₹42.0L against a ₹50.0L mandate (84%); largest grant previously managed was ₹38.0L, so this is within demonstrated absorptive capacity.",
+        "geographic_overlap": "Covers 2 of the 3 target districts, including 1 NITI Aayog Aspirational District. Nearest field office is 34 km from the mandate centroid."
+      },
+      "evidence_summary": {"csr1": true, "reg_12a": true, "reg_80g": true, "darpan": true, "audit_fy": "2024-25"},
+      "sdg_tags": [{"goal": 3, "name": "Good health and well-being", "confidence": 0.64}]
+    }
+  ],
+  "consortiums": [
+    {
+      "consortium_id": "cns_1",
+      "members": [
+        {
+          "ngo_id": "ngo_014",
+          "name": "Ashadeep Gramin Vikas Samiti",
+          "trust_score": 84,
+          "covers": [{"domain": "maternal_health", "districts": ["Kalahandi", "Nuapada"]}],
+          "unique_units": 4,
+          "budget_share_inr": 3250000,
+          "share_pct": 65,
+          "absorptive_cap_inr": 5700000,
+          "capped": false
+        }
+      ],
+      "coverage": 1.00,
+      "redundancy": 0.08,
+      "trust_weighted": 0.79,
+      "coordination_cost": 0.05,
+      "score": 0.842,
+      "beats_best_single_by": 0.31,
+      "unallocated_inr": 0,
+      "rationale": "No single partner covers both maternal health and clean water across all three districts. This pair reaches full coverage with 8% overlap."
+    }
+  ],
+  "pareto_front": ["ngo_014", "ngo_007", "ngo_022"],
+  "rank_stability": {"ngo_014": {"p_top1": 0.71, "p_top3": 0.94}},
+  "keyword_baseline_comparison": {
+    "keyword_result_count": 2,
+    "semantic_result_count": 9,
+    "missed_by_keyword": ["ngo_014", "ngo_022"],
+    "headline": "Keyword search would have missed your best-scoring partner."
+  }
+}

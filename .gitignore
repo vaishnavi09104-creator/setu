@@ -1,0 +1,32 @@
+# env — never commit secrets
+.env
+.env.local
+*.env
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+
+# sqlite db — regenerable via seed --reset
+backend/setu.db
+backend/setu.db-wal
+backend/setu.db-shm
+*.db
+
+# backend runtime artifacts
+backend/seed/page_cache/
+backend/seed/pdfs/incoming/
+
+# node (frontend, when it lands)
+node_modules/
+.next/
+
+# os junk
+Thumbs.db
+.DS_Store

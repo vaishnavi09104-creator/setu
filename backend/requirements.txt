@@ -1,0 +1,13 @@
+fastapi>=0.109
+uvicorn[standard]>=0.27
+pydantic>=2.5
+pydantic-settings>=2.1
+PyMuPDF>=1.23.8
+python-docx>=1.1.0
+python-multipart>=0.0.6
+reportlab>=4.0.9
+faker>=22.0.0
+numpy>=1.26
+pytest>=7.4
+httpx>=0.26
+-e ../ml

@@ -1,0 +1,15 @@
+{
+  "flagged": true,
+  "component_id": "shl_1",
+  "members": [
+    {"ngo_id": "ngo_041", "name": "Seva Bharti Foundation", "trust_score": 38},
+    {"ngo_id": "ngo_042", "name": "Jan Kalyan Trust", "trust_score": 34},
+    {"ngo_id": "ngo_043", "name": "Gramin Vikas Society", "trust_score": 40}
+  ],
+  "shared_identifier_types": ["address_fingerprint", "trustee_name", "bank_fingerprint"],
+  "edges": [
+    {"source": "ngo_041", "target": "ngo_042", "shared_types": ["address_fingerprint", "trustee_name", "bank_fingerprint"]},
+    {"source": "ngo_042", "target": "ngo_043", "shared_types": ["bank_fingerprint", "trustee_name"]},
+    {"source": "ngo_041", "target": "ngo_043", "shared_types": ["address_fingerprint", "bank_fingerprint"]}
+  ]
+}
